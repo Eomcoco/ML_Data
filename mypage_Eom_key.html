@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Profile - 기영</title>
+    <style>
+
+       
+
+/* 애니메이션 */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+        /* 페이지 스타일 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header, footer {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #4a90e2;
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        /* 프로필 스타일 */
+        #profile {
+            text-align: center;
+        }
+        #profile img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+        }
+        #profile p {
+            font-size: 1.1rem;
+        }
+        /* 스킬셋 스타일 */
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .skills li {
+            background: #e0e7ff;
+            margin: 5px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        /* 프로젝트 테이블 스타일 */
+        .projects table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .projects th, .projects td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        .projects th {
+            background-color: #4a90e2;
+            color: white;
+        }
+        .projects caption {
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 10px;
+            color: #4a90e2;
+            text-align: left;
+        }
+        /* About 섹션 스타일 */
+        .about ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .about li {
+         background: #e0e7ff;
+         margin: 5px 0;
+         padding: 10px;
+         border-radius: 5px;
+         font-size: 1rem;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Data Developer & Explorer - Kiyoung Eom</h1>
+        <p>데이터 개발과 분석을 통해 더 나은 결정을 이끌어갑니다.</p>
+    </header>
+
+    <main>
+        <section id="profile" style="text-align: left;">
+            <h2>About Me</h2>
+            <div style="display: flex; align-items: center;">
+                <img src="기영.jpg" alt="기영" style="width: 120px; height: 120px; border-radius: 50%; margin-right: 20px;">
+                
+                <p>자전거 여행으로 세상을 탐험하듯, <br> 데이터 분석을 통해 새로운 인사이트를 발견하는 <br> 언제나 즐거운 데이터 개발자 엄기영입니다. <br> 오늘도 즐거운 하루입니다 :) </p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skill Set</h2>
+            <ul>
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>SQL</li>
+                <li>Data Visualization</li>
+                <li>Machine Learning</li>
+                <li>Git & GitHub</li>
+                <li>Bicycle trip</li>
+                <li>Notion</li>
+                <li>Slack</li>
+                <li>Minimalism</li>
+                <li>Grit</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Project Experience</h2>
+            <table>
+                <caption>Key Projects</caption>
+                <tr>
+                    <th>Projects</th>
+                    <th>Explanation</th>
+                    <th>Skill Set</th>
+                </tr>
+                <tr>
+                    <td>데이터 분석(예정)</td>
+                    <td>데이터를 분석하여 인사이트 도출</td>
+                    <td>Python, Pandas </td>
+                </tr>
+                <tr>
+                    <td>데이터 분석(예정)</td>
+                    <td>데이터를 분석하여 인사이트 도출</td>
+                    <td>Python, Pandas</td>
+                </tr>
+                <tr>
+                    <td>자전거 여행(진행중)</td>
+                    <td>국토종주(인천~부산), 동해안종주, 제주도종주, 북한강종주</td>
+                    <td>Tri_fold_bike, Bicycle_trip, Grit</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="Experience" class="Experience">
+            <h2>Education & Certifications</h2>
+            <ul>
+                <li>Multicampus Data Science Program</li>
+                <li>정보처리기사 (예정)</li>
+                <li>빅데이터분석기사 (예정)</li>
+                <li>2종 보통 면허</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 엄기영 | GitHub: <a href="https://github.com/eomcoco" target="_blank" style="color: white;">GitHub 프로필</a><br> 단가 맞으면 어디든 갑니다</p>
+    </footer>
+</body>
+</html>
