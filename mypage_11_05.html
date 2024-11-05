@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile_기영</title>
+    <style>
+        /* 기본 페이지 스타일 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        h2 {
+            color: #4a90e2;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        h3 {
+            color: #4a90e2;
+            margin-top: 2rem;
+        }
+        p {
+            text-align: center;
+            font-size: 1.1rem;
+        }
+        img {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        /* 리스트 스타일 */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #e0e7ff;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        /* 테이블 스타일 */
+        table {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        caption {
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 10px;
+            color: #4a90e2;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #4a90e2;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f3f4f6;
+        }
+        /* 링크 스타일 */
+        a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>오늘도 즐거운 하루입니다.</h2>
+    </header>
+    
+    <main>
+        <section id="profile">
+            <p>
+                <img src="기영.jpg" width="100" height="100" alt="기영"/>
+                <strong>데이터공부&운동</strong>을 열심히 하고있지만 하루하루 힘든싸움중인 엄기영입니다.
+            </p>
+        </section>
+        
+        <section id="target">
+            <h3>이번주 실천 계획</h3>
+            <ul>
+                <li>데이터공부</li>
+                <li>파이썬공부</li>
+                <li>러닝&라이딩</li>
+                <li>요즘 즐겨 듣는 노래 <a href="https://www.youtube.com/watch?v=nVLOQO_AFiE" target="_blank">임세모 음음</a></li>
+            </ul>
+        </section>
+        
+        <section id="weekly_plan">
+            <h3>이번 주 계획</h3>
+            <table>
+                <caption>이번주 계획</caption>
+                <tr>
+                    <th>&nbsp;</th><th>월요일</th><th>화요일</th><th>수요일</th><th>목요일</th><th>금요일</th><th>토요일</th><th>일요일</th>
+                </tr>
+                <tr>
+                    <th>오전</th><td>수업집중!</td><td>수업집중!</td><td>수업집중!</td><td>수업집중!</td><td>수업집중!</td><td>자전거 타기</td><td>드르렁</td>
+                </tr>
+                <tr>
+                    <th>오후</th><td>러닝</td><td>러닝</td><td>러닝</td><td>러닝</td><td>러닝</td><td>휴식</td><td>산책</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 My Homepage</p>
+    </footer>
+</body>
+</html>
