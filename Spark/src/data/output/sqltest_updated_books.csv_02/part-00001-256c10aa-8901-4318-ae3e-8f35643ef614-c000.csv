@@ -1,0 +1,4 @@
+book_id,title,author_fname,author_lname,pages,released_year,stock_quantity,borrowed_by
+3,Book C,Emily,Jones,180,2015,50,3
+4,Book D,Chris,Brown,320,2012,75,""
+5,Book E,Anna,Davis,270,2008,35,6
